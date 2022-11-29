@@ -1,0 +1,54 @@
+@import '../variables';
+
+.company__block {
+  //width: 1000px;
+  padding: 100px 200px 60px;
+  background: $black;
+  color: white;
+  
+  .main__title {
+    color: white;
+    font-size: 36px;
+    margin: 50px 0;
+  }
+
+  .company__block__context {
+    //display: flex;
+    color: white;
+    .company__block__context-test {
+      display: flex;
+      justify-content: space-between;
+      .text1 {
+        color: white;
+        font-size: 18px;
+        margin-bottom: 50px;
+        letter-spacing: 0.6px;
+
+      }
+    }
+
+
+
+    .company__block__context-text {
+      padding-left: 30px;
+
+
+
+      .text {
+        color: white;
+        font-size: 14px;
+        letter-spacing: 0.8px;
+        line-height: 150%;
+
+      }
+
+      .title {
+        margin: 30px 0 15px;
+        color: white;
+        font-size: 24px;
+
+      }
+    }
+
+  }
+}

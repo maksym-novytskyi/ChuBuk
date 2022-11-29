@@ -1,0 +1,28 @@
+@import '../variables';
+
+.main {
+  display: flex;
+  justify-content: space-between;
+
+  .main__text {
+    width: 286px;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    margin: 250px 180px;
+
+    .title {
+      font-size: 64px;
+    }
+
+    .social {
+      display: flex;
+      justify-content: space-around;
+      margin: 15px;
+    }
+  }
+
+  .main__photo {
+    margin: 95px 34px 65px 0px;
+  }
+}

@@ -1,0 +1,22 @@
+@import '../variables';
+
+.footer {
+  padding: 18px 200px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    font-size: 12px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    //margin: 15px;
+    img {
+      margin-right: 20px;
+    }
+  }
+}
